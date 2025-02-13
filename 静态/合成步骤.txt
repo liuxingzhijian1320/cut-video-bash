@@ -1,0 +1,16 @@
+
+1. 重命名图片名称
+sh 1_rename.sh
+
+2. 通过图片生成视频 
+sh 2_imgs_video.sh
+
+3. 确定视频总长度多少， 则修改脚本的 target_duration 参数 （一定要修改）
+sh 3_imgs_video_looped.sh
+
+4. 合成 视频 和 音频 
+sh 4_video_and_audio.sh
+
+
+
+
