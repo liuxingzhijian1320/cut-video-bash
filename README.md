@@ -7,9 +7,18 @@
  1. imgs： 静态图片文件夹， 将你的照片丢到imgs文件夹下， 目前是 jpg 格式， 如果需要png 请修改 `2_every_img_video.sh`的jpg为png
  2. result： 输出结果
  3. temp： 临时存放文件夹
+ 4. audio.MP3 是音频文件 （剪映提取出来）
 
 ## 环境
-  需要安装 `ffmpeg`
+  需要安装 
+
+  ```bash
+  
+  brew install ffmpeg
+
+  brew install openai-whisper`
+
+  ```
  
  ## 动态视频
 
@@ -22,5 +31,5 @@
 1. 单个图片运动合成视频 [√]
 2. 多个视频合成完整视频 [√]
 3. 音视频合成 [√]
-4. 音频字幕提取 [x] 正在开发中
-5. 视频嵌入字幕 [x] 正在开发中
+4. 音频字幕提取 [√] 或者 使用 https://zenvideo.qq.com/
+5. 视频嵌入字幕  使用剪映

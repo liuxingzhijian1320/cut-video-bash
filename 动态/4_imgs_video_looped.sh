@@ -1,11 +1,9 @@
 #!/bin/bash
 
-# 视频长度 56分23秒 == 3383秒
-
 # 输入视频文件
 input_video="result/3_every_video_merge.mp4"
 
-# 目标视频长度（秒）
+# 目标视频长度（秒） # 视频长度 56分23秒 == 3383秒
 target_duration=3383
 
 # 获取输入视频的长度（秒）
