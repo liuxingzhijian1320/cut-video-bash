@@ -1,0 +1,6 @@
+1. 放图片放入 imgs 文件
+2. 修改脚本的 TOTAL_DURATION 的参数
+
+  TOTAL_DURATION=$((35 * 60 + 47)) # 总时长（秒，例如 35 分钟 47秒）
+
+3. 执行命令： sh all.sh
